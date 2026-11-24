@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float num1 = 3.5, num2 = 2.0, product;
+
+    product = num1 * num2;
+    printf("Product = %.2f\n", product);
+
+    return 0;
+}
