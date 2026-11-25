@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float principal = 1000.0, rate = 5.0, time = 2.0, interest;
+
+    interest = (principal * rate * time) / 100.0;
+    printf("Simple Interest = %.2f\n", interest);
+
+    return 0;
+}
