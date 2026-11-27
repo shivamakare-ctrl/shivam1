@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int x = 0;
+    if (x = 5)
+        printf("True %d", x);
+    else
+        printf("False %d", x);
+    return 0;
+}
